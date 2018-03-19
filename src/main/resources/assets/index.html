@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Todo List</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h2>Todo List</h2>
+  <form id="form-id" action="/api/tasks" method="post">
+    <div>
+      <label for="task">Task :</label>
+      <input type="text" id="task" name="task" placeholder="Enter a task..." value="" required />
+    </div>
+    <div class="button">
+      <button id="enter" type="submit">Enter</button>
+      <button id="clear" type="button">Clear List</button>
+    </div>
+  </form>
+  <div>
+    <ul id="results"></ul>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
