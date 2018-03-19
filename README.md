@@ -10,9 +10,8 @@ Also includes:
 
 ## Requirements
 
-Java (1.8 or later)
-
-Gradle (I'm running 2.10)
+- Java (1.8 or later)
+- Gradle (I'm running 2.10)
 
 
 ## Build
@@ -25,7 +24,6 @@ The resulting JAR will be saved as `./build/libs/lamine-pascal-1.0.0-standalone.
 
 
 ## Run
-
 ```
 java -jar build/libs/lamine-pascal-1.0.0-standalone.jar server config.yml
 ```
