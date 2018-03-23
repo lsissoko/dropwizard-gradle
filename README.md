@@ -20,12 +20,12 @@ Also includes:
 ./gradlew clean oneJar
 ```
 
-The resulting JAR will be saved as `./build/libs/lamine-pascal-1.0.0-standalone.jar`
+The resulting JAR will be saved as `./build/libs/dropwizard-gradle-1.0.0-standalone.jar`
 
 
 ## Run
 ```
-java -jar build/libs/lamine-pascal-1.0.0-standalone.jar server config.yml
+java -jar build/libs/dropwizard-gradle-1.0.0-standalone.jar server config.yml
 ```
 
 Open http://localhost:8000
